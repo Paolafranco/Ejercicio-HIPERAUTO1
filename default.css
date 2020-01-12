@@ -1,0 +1,151 @@
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: rgb(12, 11, 11);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #0c0b0b;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+{
+	background: url(images/banner.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 20px solid rgb(12, 12, 12);
+}
+
+#header
+{
+	position: relative;
+	padding: 5em 0em;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+
+#logo h1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1% 3%;
+	background: rgb(5, 5, 5);
+	border-radius: 0px 0px 5px 5px;
+}
+
+#logo a
+{
+	text-decoration: none;
+	text-align: center;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+{
+	position: fixed;
+	top: 4em;
+	right: 0;
+}
+
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight: 600;
+	color: rgb(10, 10, 10);
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: rgb(97, 40, 7);
+	border-radius: 10px;
+	font-weight: 250;
+	color: rgb(255, 255, 255);
+}
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+{
+	padding: 10em 0em;
+}
+/*********************************************************************************/
+/* Registro                                                                       */
+/*********************************************************************************/
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+  }
+  .login {
+	width: 400px;
+	height: 600px;
+	border: 1px solid rgb(36, 115, 161);
+	background: url(http://68.media.tumblr.com/2b27908fac782ca54cc2b3aff6862423/tumblr_mra3owkIhC1ro855no1_500.gif) center center no-repeat;
+	background-size: cover;
+	margin: 30px auto;
+	border-radius: 3px;
+  }
+  .login .form {
+	width: 100%;
+	height: 100%;
+	padding: 15px 20px;;
+  }
+  .login .form h2 {
+	color: #FFF;
+	text-align: center;
+	font-weight: normal;
+	font-size:30px;
+	margin-top: 60px;
+	margin-bottom: 80px;
+  }
+  .login .form input {
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	background: rgba(184, 201, 224, 0.5);
+	border: 1px solid rgb(36, 115, 161);
+	padding: 0 15px;
+	color: rgb(0, 0, 0);
+	border-radius: 2px;
+	font-size: 14px;
+  }
+  .login .form input:focus {
+	border: 1px solid rgba(255,255,255,.8);
+	outline: none;
+  }
+  ::-webkit-input-placeholder {
+	  color: #DDD;
+  }

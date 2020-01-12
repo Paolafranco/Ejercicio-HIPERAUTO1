@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedidos</title>
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="main.js" rel="stylesheet" type="text/css" media="all" />
+
+    <a href="index.html"><img src="images/regresar.jpg" height="60" width="110" alt="Botón"></a>
+</head>
+<body>
+    <div class="login">
+        <div class="form">
+          <h2>PEDIDOS</h2>
+          <input type="text" placeholder="Nombre">
+          <input type="text" placeholder="Dirección">
+          <input type="text" placeholder="Ciudad">
+          <br><br>
+                <select  id="piezaOb">
+                <option value="seleccionar">NOMBRE DEL PRODUCTO</option>
+                <option value="BombaFrenos">Bomba De Frenos</option>
+                <option value="Cadena">Cadena</option>
+                <option value="chasis">Chasis</option>
+                <option value="Cigueñal">Cigueñal</option>
+                <option value="CodoEscape">Codo Escape</option>
+                <option value="EjesRueda">Ejes Rueda</option>
+                <option value="Embrague">Embrague</option>
+                <option value="LLantas">LLantas</option>
+                <option value="MotorExplosión">Motor de explosión</option>
+            </select>
+          <input type="number" placeholder="Cantitad">
+          <br><br>
+          <select  id="pedidoOb" onchange="cambiarFondo(this)">
+            <option value="seleccionar">TIEMPO</option>
+            <option value="Normal">Normal</option>
+            <option value="Urgente">Urgente</option>
+        </select>
+       
+          <input type="button" value="Enviar" class="button">
+        </div>
+      </div>
+
+
+  </div>
+</div>
+    <body background="images/fondo.jpg"></body> 
+</body>
+</html>
+
